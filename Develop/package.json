@@ -1,0 +1,21 @@
+{
+    "name": "employee-cms",
+    "version": "1.0.0",
+    "main": "src/server.ts",
+    "scripts": {
+        "start": "ts-node src/server.ts",
+        "dev": "nodemon src/server.ts"
+    },
+    "dependencies": {
+        "dotenv": "^8.2.0",
+        "express": "^4.17.1",
+        "pg": "^8.5.1"
+    },
+    "devDependencies": {
+        "@types/express": "^5.0.0",
+        "@types/pg": "^8.11.11",
+        "nodemon": "^3.1.9",
+        "ts-node": "^10.9.2",
+        "typescript": "^5.8.2"
+    }
+}
