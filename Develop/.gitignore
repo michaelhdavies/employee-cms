@@ -29,9 +29,6 @@ Thumbs.db
 # Coverage directory used by tools like istanbul
 coverage/
 
-# TypeScript files if using JavaScript
-*.ts
-
 # Optional: Ignore any compiled files
 *.js
 *.js.map
