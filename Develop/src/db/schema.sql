@@ -1,3 +1,4 @@
+-- Creating tables --
 -- Create DB --
 DROP DATABASE IF EXISTS employee_cms;
 CREATE DATABASE employee_cms;
@@ -33,8 +34,3 @@ CREATE TABLE employee (
     REFERENCES employee(id)
     ON DELETE SET NULL
 );
-
--- Init seed data --
-\i seeds.sql;
- -- Run Query --
- \i query.sql;
