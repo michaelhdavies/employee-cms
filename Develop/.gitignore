@@ -1,4 +1,37 @@
-# .gitignore
+# Node modules
 node_modules/
-dist/
+
+# Logs
+logs
+*.log
+npm-debug.log*
+
+# Environment variables
 .env
+
+# Build output
+dist/
+build/
+
+# Dependency directories
+jspm_packages/
+
+# IDE or editor specific files
+.vscode/
+.idea/
+*.sublime-workspace
+*.sublime-project
+
+# Operating system files
+.DS_Store
+Thumbs.db
+
+# Coverage directory used by tools like istanbul
+coverage/
+
+# TypeScript files if using JavaScript
+*.ts
+
+# Optional: Ignore any compiled files
+*.js
+*.js.map
