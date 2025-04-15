@@ -1,6 +1,6 @@
 -- Output department data --
-SELECT * FROM department;
+SELECT * FROM departments;
 -- Output role data --
-SELECT * FROM role;
+SELECT * FROM roles;
 -- Output employee data --
-SELECT * FROM employee;
+SELECT * FROM employees;
